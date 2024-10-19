@@ -9,7 +9,7 @@ async function connectDB(){
         
     } catch (error) {
         console.log(`DB Connection FAILED, ERROR: ${error}`);
-        
+        process.exit(1)      
     }
 }
 
